@@ -58,7 +58,7 @@ onBeforeUnmount(() => {
 </style>
 
 <template>
-  <div class="d-flex align-center py-6 logobar">
+  <div class="d-flex align-center py-4 logobar">
     <div class="logo c-pointer mr-5" @click="router.push({ path: '/' })">
       <img src="/img/LogoType1.svg" alt="No Logo image">
     </div>

@@ -92,7 +92,7 @@ const artWork = computed(() => {
       </SwiperSlide>
     </Swiper>
 
-    <div class="btnArea d-flex justify-space-between align-center position-absolute w-100"
+    <div class="btnArea d-flex justify-space-between align-center position-absolute"
       style="top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;">
       <button class="prevBtn largePrevBtn"></button>
       <button class="nextBtn largeNextBtn"></button>
@@ -158,5 +158,15 @@ const artWork = computed(() => {
 .prevBtn::after {
   font-family: swiper-icons;
   content: 'prev';
+}
+
+.btnArea {
+  width: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+  .btnArea {
+    width: 95%;
+  }
 }
 </style>

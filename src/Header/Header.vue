@@ -37,7 +37,6 @@ const pcMenuLeave = () => { overPcMenu.value = false; updateShow() }
 
 <template>
   <div class="header" style="border-bottom:1px solid #d9d9d9">
-    <TopBarVue />
 
     <div class="gridOn header-main">
       <!-- LogoBar 진입 시 강제 닫기 -->

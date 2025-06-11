@@ -83,7 +83,8 @@ const itemList = ref(
               {{ item.location }}
             </p>
             <template v-if="item.badge?.length">
-              <span v-for="badge in item.badge" :key="badge" :class="badge + 'Badge'" style="margin-right: 6px;">
+              <span v-for="badge in item.badge" :key="badge" :class="['badgeArea', badge + 'Badge']"
+                style="margin-right: 6px;">
                 {{ badgeTextMap[badge] || badge }}
               </span>
             </template>
@@ -106,7 +107,7 @@ const itemList = ref(
 
 .item img {
   aspect-ratio: 3 / 4;
-  width: 100%;
+  width: 30%;
   max-width: 120px;
 }
 
@@ -114,5 +115,15 @@ const itemList = ref(
   border: 1px solid #4154ff96;
   box-shadow: 1px 1px 10px #4154ff11;
   transform: scale(1.02);
+}
+
+.badgeArea {
+  display: block,
+}
+
+@media screen and (max-width: 1100px) {
+  .badgeArea {
+    display: none;
+  }
 }
 </style>

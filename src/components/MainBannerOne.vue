@@ -38,13 +38,26 @@ onMounted(async () => {
 
 <template>
   <div class="position-relative">
-    <Swiper @swiper="onSwiper" :modules="modules" :slidesPerView="4" :centeredSlides="true" :spaceBetween="20"
+    <Swiper @swiper="onSwiper" :modules="modules" :slidesPerView="1" :centeredSlides="true" :spaceBetween="20"
       :loop="true" :speed="600" :autoplay="{ delay: 4000, disableOnInteraction: false }"
       :pagination="{ el: '.custom-pagination', type: 'progressbar' }"
-      :navigation="{ nextEl: '.nextBtn', prevEl: '.prevBtn' }" class="mySwiper px-5">
+      :navigation="{ nextEl: '.nextBtn', prevEl: '.prevBtn' }" :breakpoints="{
+        1280: {
+          slidesPerView: 4,
+          spaceBetween: 20
+        },
+        800: {
+          slidesPerView: 3,
+          spaceBetween: 20
+        },
+        650: {
+          slidesPerView: 2,
+          spaceBetween: 20
+        }
+      }" class="mySwiper px-5">
       <SwiperSlide v-for="(item, i) in artWork" :key="item.slug || i" class="swiper-slide-main">
         <img :src="item.imageSrc" alt="No Image" class="bannerImage" />
-        <div class="itemContent position-absolute w-100 h-50 d-flex justify-end flex-column px-6 py-9"
+        <div class="itemContent position-absolute w-100 d-flex justify-end flex-column px-6 py-9"
           style="bottom: 0; left: 0; z-index: 0; box-sizing: border-box;">
           <h1 class="max-line-1" style="font-size: 25px;">
             {{ item.title }}
@@ -98,6 +111,7 @@ onMounted(async () => {
   background: #000;
   background: linear-gradient(0deg, rgba(0, 0, 0, 1) 17%, rgba(0, 0, 0, 0) 100%);
   color: white;
+  height: 70%;
 }
 
 .swiper-slide-main {
@@ -175,6 +189,7 @@ img {
   transform: translate(-50%, 0);
   pointer-events: none;
   visibility: hidden;
+  white-space: nowrap;
 }
 
 .swiper-slide-main:hover>.reserveBtn {
