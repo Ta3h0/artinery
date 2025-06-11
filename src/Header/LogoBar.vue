@@ -35,18 +35,18 @@ onBeforeUnmount(() => {
 }
 
 .rank {
-  height: 36px;
+  height: 50px;
   overflow: hidden;
   position: relative;
 }
 
 .rank-inner {
   transition: transform 0.5s ease-in-out;
-  transform: translateY(calc(-36px * var(--current-index)));
+  transform: translateY(calc(-50px * var(--current-index)));
 }
 
 .rank li {
-  height: 36px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
