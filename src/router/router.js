@@ -1,5 +1,4 @@
 // src/router.js
-
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../Home.vue'
 import Login from '../login/Login.vue'
@@ -21,7 +20,6 @@ const routes = [
     name: 'ErrorPage',
     component: ErrorPage,
   },
-  // 그 외 매칭되지 않는 경로는 404로 리다이렉트
   {
     path: '/:catchAll(.*)',
     redirect: '/404'
@@ -29,14 +27,13 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  // BASE_URL에 '/artinery/'가 들어가도록 설정
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
   scrollBehavior(to, from, savedPosition) {
-    // 뒤로가기/앞으로가기 시에는 저장된 위치로 복원
     if (savedPosition) {
       return savedPosition
     }
-    // 그 외의 경우 항상 페이지 최상단으로 스크롤
     return { top: 0 }
   }
 })
