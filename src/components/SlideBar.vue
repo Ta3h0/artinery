@@ -1,11 +1,13 @@
 <script setup>
+import { ref, computed } from 'vue'
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 import { Pagination, Navigation } from 'swiper/modules'
-import { ref, onMounted, computed } from 'vue'
 import { useRouter } from 'vue-router'
+// JSON을 ESM으로 직접 가져옵니다
+import artData from '../assets/data/artWork.json'
 
 const props = defineProps({
   subtitle: String,
@@ -13,37 +15,35 @@ const props = defineProps({
   tab: Boolean,
   dataSet: String
 })
-const router = useRouter();
+const router = useRouter()
 
 const tabList = [
-  { tabName: "서울", areaCode: 1 },
-  { tabName: "경기/인천", areaCode: 2 },
-  { tabName: "충청/강원", areaCode: 3 },
-  { tabName: "대구/경북", areaCode: 4 },
-  { tabName: "부산/경남", areaCode: 5 },
-  { tabName: "광주/전라", areaCode: 6 },
-  { tabName: "제주", areaCode: 7 },
+  { tabName: '서울', areaCode: 1 },
+  { tabName: '경기/인천', areaCode: 2 },
+  { tabName: '충청/강원', areaCode: 3 },
+  { tabName: '대구/경북', areaCode: 4 },
+  { tabName: '부산/경남', areaCode: 5 },
+  { tabName: '광주/전라', areaCode: 6 },
+  { tabName: '제주', areaCode: 7 },
 ]
 
 const modules = [Pagination, Navigation]
 const selectedTabIndex = ref(0)
 
-// 1) 원본 전체 데이터
-const allData = ref([])
+// 전체 데이터는 JSON에서 바로
+const allData = ref(artData.artWork)
 
-// 2) onMounted 에서만 불러오기
-onMounted(async () => {
-  try {
-    const res = await fetch('/assets/data/artWork.json')
-    if (!res.ok) throw new Error(`HTTP ${res.status}`)
-    const json = await res.json()
-    allData.value = json.artWork
-  } catch (err) {
-    console.error('artWork.json 로드 실패:', err)
-  }
-})
+// 탭 클릭
+const goTab = (index) => {
+  selectedTabIndex.value = index
+}
 
-// 3) artWork를 computed 로 정의
+// 예시 에러 이동
+const goError = () => {
+  router.push({ path: '/404' })
+}
+
+// 렌더링할 artWork 계산
 const artWork = computed(() => {
   const data = allData.value
   if (props.dataSet === 'normal') {
@@ -56,24 +56,13 @@ const artWork = computed(() => {
       .slice(0, 6)
   }
   if (props.dataSet === 'tab') {
-    // 선택된 탭의 areaCode
     const code = tabList[selectedTabIndex.value].areaCode
     return data
       .filter(item => item.areaCode === code)
       .slice(0, 8)
   }
-  // default: 10개
   return data.slice(0, 10)
 })
-
-// 탭 클릭 함수
-const goTab = (index) => {
-  selectedTabIndex.value = index
-}
-
-const goError = () => {
-  router.push({ path: "/404" });
-}
 </script>
 
 <template>
@@ -82,16 +71,16 @@ const goError = () => {
       <h1 style="font-size: 30px; text-align: center;">{{ title }}</h1>
     </div>
 
-    <!-- 탭 메뉴 -->
-    <div v-if="props.dataSet == 'tab'" class="tabMenu d-flex justify-center align-center flex-wrap mb-4">
+    <div v-if="dataSet === 'tab'" class="tabMenu d-flex justify-center align-center flex-wrap mb-4">
       <div v-for="(t, i) in tabList" :key="i" class="tab c-pointer" :class="{ on: selectedTabIndex === i }"
-        @click="goTab(i)">{{ t.tabName }}</div>
+        @click="goTab(i)">
+        {{ t.tabName }}
+      </div>
     </div>
 
-    <!-- Swiper -->
     <Swiper :slidesPerView="5" :spaceBetween="24" :navigation="{ nextEl: '.nextBtn', prevEl: '.prevBtn' }"
       :modules="modules" class="mySwiper" :loop="true">
-      <SwiperSlide v-for="(item, i) in artWork" :key="i" class="c-pointer" @click="goError()">
+      <SwiperSlide v-for="(item, i) in artWork" :key="i" class="c-pointer" @click="goError">
         <img :src="item.imageSrc" alt="No Image" class="itemImage w-100 rounded" />
         <div class="textBox d-flex flex-column justify-end">
           <h1 class="mt-3 textLineOne titleText">{{ item.title }}</h1>
@@ -103,7 +92,6 @@ const goError = () => {
       </SwiperSlide>
     </Swiper>
 
-    <!-- 네비게이션 버튼 -->
     <div class="btnArea d-flex justify-space-between align-center position-absolute w-100"
       style="top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;">
       <button class="prevBtn largePrevBtn"></button>
@@ -111,6 +99,7 @@ const goError = () => {
     </div>
   </div>
 </template>
+
     
 <style scoped>
 .tab {

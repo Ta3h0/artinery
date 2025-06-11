@@ -50,7 +50,7 @@ const changeImg = (i) => {
             on: currentIdx === i,
             'prev-on': currentIdx - 1 === i
           }" @click="goError()">
-          {{ item.title }} <img src="img/rightArrow.svg" alt="바로가기" style="width: auto !important;" />
+          {{ item.title }} <img src="/img/rightArrow.svg" alt="바로가기" style="width: auto !important;" />
         </div>
       </div>
 

@@ -55,10 +55,10 @@
       <div class="right">
         <!-- 5. 전시 포스터 이미지 카드 2개 -->
         <div class="image-card">
-          <img src="img/gwFour.jpg" alt="전시 포스터 1" @click="goPage('/location')" class="c-pointer" />
+          <img src="/img/gwFour.jpg" alt="전시 포스터 1" @click="goPage('/location')" class="c-pointer" />
         </div>
         <div class="image-card ml-6">
-          <img src="img/dgThree.jpg" alt="전시 포스터 2" @click="goPage('/location')" class="c-pointer" />
+          <img src="/img/dgThree.jpg" alt="전시 포스터 2" @click="goPage('/location')" class="c-pointer" />
         </div>
       </div>
     </div>

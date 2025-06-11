@@ -6,11 +6,11 @@ const router = useRouter();
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 
 const miniItem = [
-  { miniImg: 'img/miniHeaderBanner1.png' },
-  { miniImg: 'img/miniHeaderBanner2.png' },
-  { miniImg: 'img/miniHeaderBanner3.png' },
-  { miniImg: 'img/miniHeaderBanner4.png' },
-  { miniImg: 'img/miniHeaderBanner5.png' },
+  { miniImg: '/img/miniHeaderBanner1.png' },
+  { miniImg: '/img/miniHeaderBanner2.png' },
+  { miniImg: '/img/miniHeaderBanner3.png' },
+  { miniImg: '/img/miniHeaderBanner4.png' },
+  { miniImg: '/img/miniHeaderBanner5.png' },
 ];
 
 const currentIndex = ref(0);
@@ -62,12 +62,12 @@ onBeforeUnmount(() => {
 <template>
   <div class="d-flex align-center py-6 logobar">
     <div class="logo c-pointer mr-5" @click="router.push({ path: '/' })">
-      <img src="img/LogoType1.svg" alt="No Logo image">
+      <img src="/img/LogoType1.svg" alt="No Logo image">
     </div>
     <div class="searchSection d-flex align-center">
       <div class="searchBox position-relative">
         <input type="text" placeholder="작품명을 검색하세요" />
-        <img src="img/Search.svg" alt="No Icon" class="searchIcon">
+        <img src="/img/Search.svg" alt="No Icon" class="searchIcon">
       </div>
 
       <ul class="rank pa-0 ml-6">

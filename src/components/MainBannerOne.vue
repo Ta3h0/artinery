@@ -7,6 +7,8 @@ import 'swiper/css/navigation'
 import 'swiper/css/autoplay'
 import { Pagination, Navigation, Autoplay } from 'swiper/modules'
 import { useRouter } from 'vue-router'
+// JSON을 ESM으로 직접 불러옵니다
+import artData from '../assets/data/artWork.json'
 
 const router = useRouter()
 const modules = [Pagination, Navigation, Autoplay]
@@ -15,19 +17,17 @@ const goBook = (path) => {
   return router.push({ path: `/404` })
 }
 
-const artWork = ref([])
-// Swiper 인스턴스 레퍼런스
+// artWork를 JSON에서 바로 초기화 (첫 10개)
+const artWork = ref(artData.artWork.slice(0, 10))
+
+// Swiper 인스턴스 참조
 const swiperRef = ref(null)
 const onSwiper = (swiper) => {
   swiperRef.value = swiper
 }
 
 onMounted(async () => {
-  const res = await fetch('/assets/data/artWork.json')
-  const json = await res.json()
-  artWork.value = json.artWork.slice(0, 10)
-
-  // 데이터 렌더 후 Swiper 업데이트 및 autoplay 재시작
+  // 렌더링이 끝나면 Swiper 갱신 및 autoplay 재시작
   await nextTick()
   if (swiperRef.value) {
     swiperRef.value.update()
@@ -38,17 +38,21 @@ onMounted(async () => {
 
 <template>
   <div class="position-relative">
-    <Swiper v-if="artWork.length" @swiper="onSwiper" :modules="modules" :slidesPerView="4" :centeredSlides="true"
-      :spaceBetween="20" :loop="true" :speed="600" :autoplay="{ delay: 4000, disableOnInteraction: false }"
+    <Swiper @swiper="onSwiper" :modules="modules" :slidesPerView="4" :centeredSlides="true" :spaceBetween="20"
+      :loop="true" :speed="600" :autoplay="{ delay: 4000, disableOnInteraction: false }"
       :pagination="{ el: '.custom-pagination', type: 'progressbar' }"
       :navigation="{ nextEl: '.nextBtn', prevEl: '.prevBtn' }" class="mySwiper px-5">
-      <SwiperSlide v-for="(item, i) in artWork" :key="i" class="swiper-slide-main">
+      <SwiperSlide v-for="(item, i) in artWork" :key="item.slug || i" class="swiper-slide-main">
         <img :src="item.imageSrc" alt="No Image" class="bannerImage" />
         <div class="itemContent position-absolute w-100 h-50 d-flex justify-end flex-column px-6 py-9"
           style="bottom: 0; left: 0; z-index: 0; box-sizing: border-box;">
-          <h1 class="max-line-1" style="font-size: 25px;">{{ item.title }}</h1>
-          <p class="mb-4 d-flex align-center"><v-icon size="14" class="mr-1">mdi-map-marker-outline</v-icon>{{ item.place
-          }}</p>
+          <h1 class="max-line-1" style="font-size: 25px;">
+            {{ item.title }}
+          </h1>
+          <p class="mb-4 d-flex align-center">
+            <v-icon size="14" class="mr-1">mdi-map-marker-outline</v-icon>
+            {{ item.place }}
+          </p>
           <span style="font-size: 14px;">{{ item.duration }}</span>
         </div>
         <div
@@ -71,6 +75,7 @@ onMounted(async () => {
     </div>
   </div>
 </template>
+
 
 
 <style scoped>

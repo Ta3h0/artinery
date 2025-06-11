@@ -1,6 +1,8 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref } from 'vue'
 import { useRouter } from 'vue-router'
+// ESM으로 JSON을 직접 불러옵니다
+import artData from '../assets/data/artWork.json'
 
 // props
 const props = defineProps({
@@ -17,51 +19,41 @@ const badgeTextMap = {
   sale: '파격할인'
 }
 
-// 예약 페이지 이동
+// 예약 페이지 이동 (예시)
 const goBook = (path) => {
-  router.push({ path: "/404" })
+  router.push({ path: '/404' })
 }
 
-// 렌더할 최종 데이터
-const itemList = ref([])
+// 남은 일수 계산용 상수
+const MS_PER_DAY = 1000 * 60 * 60 * 24
 
-onMounted(async () => {
-  try {
-    const res = await fetch('/assets/data/artWork.json')
-    if (!res.ok) throw new Error(`HTTP ${res.status}`)
-    const { artWork } = await res.json()
-
-    const today = new Date()
-    const MS_PER_DAY = 1000 * 60 * 60 * 24
-
-    // 1) deadLine 계산
-    artWork.forEach(item => {
-      const [, end] = item.duration.split('~').map(s => s.trim())
-      const endDate = new Date(end)
-      const diffMs = endDate - today
-      item.deadLine = Math.ceil(diffMs / MS_PER_DAY)
-    })
-
-    // 2) 중복 title 제거
-    const unique = []
-    const seen = new Set()
-    artWork.forEach(item => {
-      if (!seen.has(item.title)) {
-        seen.add(item.title)
-        unique.push(item)
-      }
-    })
-
-    // 3) deadLine > 0 필터 → 오름차순 정렬 → 6개만
-    itemList.value = unique
-      .filter(item => item.deadLine > 0)
-      .sort((a, b) => a.deadLine - b.deadLine)
-      .slice(0, 6)
-
-  } catch (err) {
-    console.error('artWork.json 로드 실패:', err)
+// 1) duration으로부터 deadLine 계산
+const withDeadline = artData.artWork.map(item => {
+  const [start, end] = item.duration.split('~').map(s => s.trim())
+  const diff = new Date(end) - new Date()
+  return {
+    ...item,
+    deadLine: Math.ceil(diff / MS_PER_DAY)
   }
 })
+
+// 2) 중복 title 제거
+const unique = []
+const seen = new Set()
+withDeadline.forEach(item => {
+  if (!seen.has(item.title)) {
+    seen.add(item.title)
+    unique.push(item)
+  }
+})
+
+// 3) deadLine > 0 필터 → 오름차순 정렬 → 상위 6개
+const itemList = ref(
+  unique
+    .filter(item => item.deadLine > 0)
+    .sort((a, b) => a.deadLine - b.deadLine)
+    .slice(0, 6)
+)
 </script>
 
 <template>
@@ -77,7 +69,7 @@ onMounted(async () => {
 
     <div class="pannel">
       <div class="line d-flex justify-space-between align-center flex-wrap">
-        <div class="item d-flex align-center pa-6 rounded c-pointer" v-for="(item, i) in itemList" :key="item.title"
+        <div class="item d-flex align-center pa-6 rounded c-pointer" v-for="item in itemList" :key="item.title"
           @click="goBook(item.booking)">
           <img :src="item.imageSrc" alt="작품 포스터" class="mr-3" />
           <div class="content w-100">
@@ -90,7 +82,7 @@ onMounted(async () => {
             <p style="color: #767676;">
               {{ item.location }}
             </p>
-            <template v-if="item.badge && item.badge.length">
+            <template v-if="item.badge?.length">
               <span v-for="badge in item.badge" :key="badge" :class="badge + 'Badge'" style="margin-right: 6px;">
                 {{ badgeTextMap[badge] || badge }}
               </span>
@@ -101,6 +93,7 @@ onMounted(async () => {
     </div>
   </div>
 </template>
+
 
 
 <style scoped>

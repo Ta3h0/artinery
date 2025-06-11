@@ -12,7 +12,7 @@ const goError = () => {
 
 <template>
   <div class="px-4 loginBox mx-auto">
-    <img src="img/LogoType3.svg" alt="logo" class="d-block mb-12 mt-12 px-12">
+    <img src="/img/LogoType3.svg" alt="logo" class="d-block mb-12 mt-12 px-12">
 
     <div class="loginInput mb-5">
       <input type="text" placeholder="아이디" class="w-100 d-block inputArea py-3">
