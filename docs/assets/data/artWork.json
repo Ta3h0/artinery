@@ -1,0 +1,869 @@
+{
+  "artWork": [
+    {
+      "title": "소피 폰 헬러만: 축제",
+      "location": "서울",
+      "duration": "2025.04.09 ~ 2025.07.06",
+      "place": "스페이스K 서울",
+      "areaCode": 1,
+      "imageSrc": "img/seoulOne.jpg",
+      "badge": [
+        "hot"
+      ],
+      "slug": "sX9d01"
+    },
+    {
+      "title": "카와시마 코토리: 사란란 + 33",
+      "location": "서울",
+      "duration": "2025.02.26 ~ 2025.10.12",
+      "place": "석파정 서울미술관",
+      "areaCode": 1,
+      "imageSrc": "img/seoulTwo.jpg",
+      "badge": [],
+      "slug": "sX9d02"
+    },
+    {
+      "title": "밴드뮤지컬 머피",
+      "location": "서울",
+      "duration": "2025.05.31 ~ 2025.06.30",
+      "place": "예그린씨어터",
+      "areaCode": 1,
+      "imageSrc": "img/seoulThree.jpg",
+      "badge": [],
+      "slug": "sX9d03"
+    },
+    {
+      "title": "Vers l'état de fruit",
+      "location": "서울",
+      "duration": "2025.06.08 ~ 2025.07.03",
+      "place": "갤러리로윤",
+      "areaCode": 1,
+      "imageSrc": "img/seoulFour.jpg",
+      "badge": [
+        "sale",
+        "only",
+        "hot"
+      ],
+      "slug": "sX9d04"
+    },
+    {
+      "title": "Fence-go-round",
+      "location": "서울",
+      "duration": "2025.05.25 ~ 2025.06.14",
+      "place": "서울시 영등포구 양평동",
+      "areaCode": 1,
+      "imageSrc": "img/seoulFive.jpg",
+      "badge": [
+        "sale",
+        "hot"
+      ],
+      "slug": "sX9d05"
+    },
+    {
+      "title": "아침정원",
+      "location": "경기/인천",
+      "duration": "2025.06.06 ~ 2025.06.29",
+      "place": "소전미술관",
+      "areaCode": 2,
+      "imageSrc": "img/icOne.jpg",
+      "badge": [
+        "only"
+      ],
+      "slug": "sX9d06"
+    },
+    {
+      "title": "Archive Error : 기억의 바깥",
+      "location": "경기/인천",
+      "duration": "2025.06.07 ~ 2025.06.29",
+      "place": "아트 포 랩",
+      "areaCode": 2,
+      "imageSrc": "img/icTwo.jpg",
+      "badge": [],
+      "slug": "sX9d07"
+    },
+    {
+      "title": "햇살 한 줌, 바람 한 점",
+      "location": "경기/인천",
+      "duration": "2025.05.31 ~ 2025.06.18",
+      "place": "아트 포 랩",
+      "areaCode": 2,
+      "imageSrc": "img/icThree.jpg",
+      "badge": [
+        "sale",
+        "hot",
+        "only"
+      ],
+      "slug": "sX9d08"
+    },
+    {
+      "title": "아트전시플리마켓",
+      "location": "경기/인천",
+      "duration": "2025.06.07 ~ 2025.06.14",
+      "place": "양평아프리카문화예술박물관",
+      "areaCode": 2,
+      "imageSrc": "img/icFour.jpg",
+      "badge": [
+        "hot"
+      ],
+      "slug": "sX9d09"
+    },
+    {
+      "title": "ALWAYS RIOPIA",
+      "location": "경기/인천",
+      "duration": "2025.05.29 ~ 2025.06.16",
+      "place": "갤러리티",
+      "areaCode": 2,
+      "imageSrc": "img/icFive.jpg",
+      "badge": [
+        "sale",
+        "only"
+      ],
+      "slug": "sX9d10"
+    },
+    {
+      "title": "신화의 땅, 서사의 나라",
+      "location": "충청/강원",
+      "duration": "2025.04.05 ~ 2025.07.27",
+      "place": "평화랑",
+      "areaCode": 3,
+      "imageSrc": "img/gwOne.jpg",
+      "badge": [
+        "only",
+        "sale"
+      ],
+      "slug": "sX9d11"
+    },
+    {
+      "title": "평안에 대하여",
+      "location": "충청/강원",
+      "duration": "2025.06.11 ~ 2025.06.29",
+      "place": "소집",
+      "areaCode": 3,
+      "imageSrc": "img/gwTwo.jpg",
+      "badge": [
+        "hot",
+        "only",
+        "sale"
+      ],
+      "slug": "sX9d12"
+    },
+    {
+      "title": "Play & Pause",
+      "location": "충청/강원",
+      "duration": "2025.03.29 ~ 2025.06.15",
+      "place": "KT&G 상상마당 춘천 아트센터",
+      "areaCode": 3,
+      "imageSrc": "img/gwThree.jpg",
+      "badge": [
+        "sale",
+        "hot"
+      ],
+      "slug": "sX9d13"
+    },
+    {
+      "title": "All Day House",
+      "location": "충청/강원",
+      "duration": "2025.02.28 ~ 2025.10.31",
+      "place": "올데이스테이",
+      "areaCode": 3,
+      "imageSrc": "img/gwFour.jpg",
+      "badge": [
+        "only",
+        "sale"
+      ],
+      "slug": "sX9d14"
+    },
+    {
+      "title": "멍멍야옹야옹짹짹짹",
+      "location": "충청/강원",
+      "duration": "2025.04.22 ~ 2026.04.12",
+      "place": "박수근미술관 어린이관",
+      "areaCode": 3,
+      "imageSrc": "img/gwFive.jpg",
+      "badge": [],
+      "slug": "sX9d15"
+    },
+    {
+      "title": "훈나의 원풍경-Home&House(엄마의 텃밭)",
+      "location": "대구/경북",
+      "duration": "2025.05.23 ~ 2025.06.13",
+      "place": "갤러리여울",
+      "areaCode": 4,
+      "imageSrc": "img/dgOne.jpg",
+      "badge": [
+        "hot",
+        "sale"
+      ],
+      "slug": "sX9d16"
+    },
+    {
+      "title": "아름다운 밤하늘 및 천체",
+      "location": "대구/경북",
+      "duration": "2025.05.20 ~ 2025.06.15",
+      "place": "국립대구과학관",
+      "areaCode": 4,
+      "imageSrc": "img/dgTwo.jpg",
+      "badge": [
+        "sale",
+        "only",
+        "hot"
+      ],
+      "slug": "sX9d17"
+    },
+    {
+      "title": "묘하게, 너",
+      "location": "대구/경북",
+      "duration": "2025.05.28 ~ 2025.07.01",
+      "place": "라이크디즈위드김광석거리점",
+      "areaCode": 4,
+      "imageSrc": "img/dgThree.jpg",
+      "badge": [
+        "only",
+        "hot"
+      ],
+      "slug": "sX9d18"
+    },
+    {
+      "title": "여전히 아름다운지",
+      "location": "대구/경북",
+      "duration": "2025.06.05 ~ 2025.07.20",
+      "place": "모호주택",
+      "areaCode": 4,
+      "imageSrc": "img/dgFour.jpg",
+      "badge": [
+        "hot",
+        "only"
+      ],
+      "slug": "sX9d19"
+    },
+    {
+      "title": "이름 없는 하루의 조각들",
+      "location": "대구/경북",
+      "duration": "2025.05.15 ~ 2025.06.18",
+      "place": "라이크디즈위드 교동점",
+      "areaCode": 4,
+      "imageSrc": "img/dgFive.jpg",
+      "badge": [
+        "only",
+        "sale"
+      ],
+      "slug": "sX9d20"
+    },
+    {
+      "title": "멀고 가까운 섬들 Islands Near and Far",
+      "location": "부산/경남",
+      "duration": "2025.06.05 ~ 2025.06.28",
+      "place": "맥화랑",
+      "areaCode": 5,
+      "imageSrc": "img/bsOne.jpg",
+      "badge": [
+        "sale"
+      ],
+      "slug": "sX9d21"
+    },
+    {
+      "title": "사람은 무엇으로 사는가",
+      "location": "부산/경남",
+      "duration": "2025.06.05 ~ 2025.06.26",
+      "place": "허먼갤러리",
+      "areaCode": 5,
+      "imageSrc": "img/bsTwo.jpg",
+      "badge": [
+        "only",
+        "hot"
+      ],
+      "slug": "sX9d22"
+    },
+    {
+      "title": "Soft dash",
+      "location": "부산/경남",
+      "duration": "2025.05.24 ~ 2025.06.15",
+      "place": "오픈스페이스 배",
+      "areaCode": 5,
+      "imageSrc": "img/bsThree.jpg",
+      "badge": [
+        "hot",
+        "only",
+        "sale"
+      ],
+      "slug": "sX9d23"
+    },
+    {
+      "title": "Violet Travel",
+      "location": "부산/경남",
+      "duration": "2025.06.02 ~ 2025.06.25",
+      "place": "청년창조발전소고고씽job",
+      "areaCode": 5,
+      "imageSrc": "img/bsFour.jpg",
+      "badge": [
+        "only"
+      ],
+      "slug": "sX9d24"
+    },
+    {
+      "title": "그때의 너도, 지금의 너도, 이곳에 올 수 있어",
+      "location": "부산/경남",
+      "duration": "2025.05.17 ~ 2025.06.14",
+      "place": "아트소향",
+      "areaCode": 5,
+      "imageSrc": "img/bsFive.jpg",
+      "badge": [
+        "hot",
+        "only",
+        "sale"
+      ],
+      "slug": "sX9d25"
+    },
+    {
+      "title": "일상, 그리다",
+      "location": "광주/전라",
+      "duration": "2025.06.10 ~ 2025.06.19",
+      "place": "빛고을 시민문화관",
+      "areaCode": 6,
+      "imageSrc": "img/gjOne.jpg",
+      "badge": [
+        "sale"
+      ],
+      "slug": "sX9d26"
+    },
+    {
+      "title": "마음, 예술가의 혼을 담은 한국화",
+      "location": "광주/전라",
+      "duration": "2025.05.13 ~ 2025.09.07",
+      "place": "광주시립미술관",
+      "areaCode": 6,
+      "imageSrc": "img/gjTwo.jpg",
+      "badge": [
+        "hot",
+        "only",
+        "sale"
+      ],
+      "slug": "sX9d27"
+    },
+    {
+      "title": "소녀-애상",
+      "location": "광주/전라",
+      "duration": "2025.06.03 ~ 2025.07.28",
+      "place": "별밤미술관 in 신창",
+      "areaCode": 6,
+      "imageSrc": "img/gjThree.jpg",
+      "badge": [
+        "hot"
+      ],
+      "slug": "sX9d28"
+    },
+    {
+      "title": "이이남의 산수극장",
+      "location": "광주/전라",
+      "duration": "2025.04.04 ~ 2025.07.06",
+      "place": "국립아시아문화전당",
+      "areaCode": 6,
+      "imageSrc": "img/gjFour.jpg",
+      "badge": [
+        "sale",
+        "hot"
+      ],
+      "slug": "sX9d29"
+    },
+    {
+      "title": "박조열과 '오장군의 발톱'",
+      "location": "광주/전라",
+      "duration": "2024.12.11 ~ 2025.06.29",
+      "place": "국립아시아문화전당",
+      "areaCode": 6,
+      "imageSrc": "img/gjFive.jpg",
+      "badge": [],
+      "slug": "sX9d30"
+    },
+    {
+      "title": "타타라타트(Tattarrattat)",
+      "location": "제주",
+      "duration": "2025.06.06 ~ 2025.06.22",
+      "place": "새탕라움",
+      "areaCode": 7,
+      "imageSrc": "img/jjOne.jpg",
+      "badge": [],
+      "slug": "sX9d31"
+    },
+    {
+      "title": "김승민 개인전",
+      "location": "제주",
+      "duration": "2025.06.09 ~ 2025.06.21",
+      "place": "돌담갤러리",
+      "areaCode": 7,
+      "imageSrc": "img/jjTwo.jpg",
+      "badge": [
+        "sale",
+        "only",
+        "hot"
+      ],
+      "slug": "sX9d32"
+    },
+    {
+      "title": "머무는 산책",
+      "location": "제주",
+      "duration": "2025.06.08 ~ 2025.08.30",
+      "place": "폴개우영",
+      "areaCode": 7,
+      "imageSrc": "img/jjThree.jpg",
+      "badge": [
+        "only"
+      ],
+      "slug": "sX9d33"
+    },
+    {
+      "title": "에릭 오 : O",
+      "location": "제주",
+      "duration": "2024.04.25 ~ 2025.06.30",
+      "place": "하우스오브레퓨즈",
+      "areaCode": 7,
+      "imageSrc": "img/jjFour.jpg",
+      "badge": [
+        "sale",
+        "hot",
+        "only"
+      ],
+      "slug": "sX9d34"
+    },
+    {
+      "title": "불편한 편의점 뮤직드라마",
+      "location": "제주",
+      "duration": "2025.05.03 ~ 2025.08.31",
+      "place": "제주 한라아트홀 대극장",
+      "areaCode": 7,
+      "imageSrc": "img/jjFive.jpg",
+      "badge": [
+        "sale",
+        "hot"
+      ],
+      "slug": "sX9d35"
+    },
+    {
+      "title": "소피 폰 헬러만: 축제",
+      "location": "서울",
+      "duration": "2025.04.09 ~ 2025.07.06",
+      "place": "스페이스K 서울",
+      "areaCode": 1,
+      "imageSrc": "img/seoulOne.jpg",
+      "badge": [],
+      "slug": "sX9d01"
+    },
+    {
+      "title": "카와시마 코토리: 사란란 + 33",
+      "location": "서울",
+      "duration": "2025.02.26 ~ 2025.10.12",
+      "place": "석파정 서울미술관",
+      "areaCode": 1,
+      "imageSrc": "img/seoulTwo.jpg",
+      "badge": [
+        "sale",
+        "only",
+        "hot"
+      ],
+      "slug": "sX9d02"
+    },
+    {
+      "title": "밴드뮤지컬 머피",
+      "location": "서울",
+      "duration": "2025.05.31 ~ 2025.06.30",
+      "place": "예그린씨어터",
+      "areaCode": 1,
+      "imageSrc": "img/seoulThree.jpg",
+      "badge": [],
+      "slug": "sX9d03"
+    },
+    {
+      "title": "Vers l'état de fruit",
+      "location": "서울",
+      "duration": "2025.06.08 ~ 2025.07.03",
+      "place": "갤러리로윤",
+      "areaCode": 1,
+      "imageSrc": "img/seoulFour.jpg",
+      "badge": [
+        "only",
+        "sale",
+        "hot"
+      ],
+      "slug": "sX9d04"
+    },
+    {
+      "title": "Fence-go-round",
+      "location": "서울",
+      "duration": "2025.05.25 ~ 2025.06.14",
+      "place": "서울시 영등포구 양평동",
+      "areaCode": 1,
+      "imageSrc": "img/seoulFive.jpg",
+      "badge": [],
+      "slug": "sX9d05"
+    },
+    {
+      "title": "아침정원",
+      "location": "경기/인천",
+      "duration": "2025.06.06 ~ 2025.06.29",
+      "place": "소전미술관",
+      "areaCode": 2,
+      "imageSrc": "img/icOne.jpg",
+      "badge": [
+        "hot"
+      ],
+      "slug": "sX9d06"
+    },
+    {
+      "title": "Archive Error : 기억의 바깥",
+      "location": "경기/인천",
+      "duration": "2025.06.07 ~ 2025.06.29",
+      "place": "아트 포 랩",
+      "areaCode": 2,
+      "imageSrc": "img/icTwo.jpg",
+      "badge": [
+        "hot"
+      ],
+      "slug": "sX9d07"
+    },
+    {
+      "title": "햇살 한 줌, 바람 한 점",
+      "location": "경기/인천",
+      "duration": "2025.05.31 ~ 2025.06.18",
+      "place": "아트 포 랩",
+      "areaCode": 2,
+      "imageSrc": "img/icThree.jpg",
+      "badge": [
+        "only",
+        "hot"
+      ],
+      "slug": "sX9d08"
+    },
+    {
+      "title": "아트전시플리마켓",
+      "location": "경기/인천",
+      "duration": "2025.06.07 ~ 2025.06.14",
+      "place": "양평아프리카문화예술박물관",
+      "areaCode": 2,
+      "imageSrc": "img/icFour.jpg",
+      "badge": [],
+      "slug": "sX9d09"
+    },
+    {
+      "title": "ALWAYS RIOPIA",
+      "location": "경기/인천",
+      "duration": "2025.05.29 ~ 2025.06.16",
+      "place": "갤러리티",
+      "areaCode": 2,
+      "imageSrc": "img/icFive.jpg",
+      "badge": [],
+      "slug": "sX9d10"
+    },
+    {
+      "title": "신화의 땅, 서사의 나라",
+      "location": "충청/강원",
+      "duration": "2025.04.05 ~ 2025.07.27",
+      "place": "평화랑",
+      "areaCode": 3,
+      "imageSrc": "img/gwOne.jpg",
+      "badge": [],
+      "slug": "sX9d11"
+    },
+    {
+      "title": "평안에 대하여",
+      "location": "충청/강원",
+      "duration": "2025.06.11 ~ 2025.06.29",
+      "place": "소집",
+      "areaCode": 3,
+      "imageSrc": "img/gwTwo.jpg",
+      "badge": [],
+      "slug": "sX9d12"
+    },
+    {
+      "title": "Play & Pause",
+      "location": "충청/강원",
+      "duration": "2025.03.29 ~ 2025.06.15",
+      "place": "KT&G 상상마당 춘천 아트센터",
+      "areaCode": 3,
+      "imageSrc": "img/gwThree.jpg",
+      "badge": [
+        "only"
+      ],
+      "slug": "sX9d13"
+    },
+    {
+      "title": "All Day House",
+      "location": "충청/강원",
+      "duration": "2025.02.28 ~ 2025.10.31",
+      "place": "올데이스테이",
+      "areaCode": 3,
+      "imageSrc": "img/gwFour.jpg",
+      "badge": [
+        "sale"
+      ],
+      "slug": "sX9d14"
+    },
+    {
+      "title": "멍멍야옹야옹짹짹짹",
+      "location": "충청/강원",
+      "duration": "2025.04.22 ~ 2026.04.12",
+      "place": "박수근미술관 어린이관",
+      "areaCode": 3,
+      "imageSrc": "img/gwFive.jpg",
+      "badge": [
+        "hot",
+        "sale"
+      ],
+      "slug": "sX9d15"
+    },
+    {
+      "title": "훈나의 원풍경-Home&House(엄마의 텃밭)",
+      "location": "대구/경북",
+      "duration": "2025.05.23 ~ 2025.06.13",
+      "place": "갤러리여울",
+      "areaCode": 4,
+      "imageSrc": "img/dgOne.jpg",
+      "badge": [
+        "only",
+        "sale",
+        "hot"
+      ],
+      "slug": "sX9d16"
+    },
+    {
+      "title": "아름다운 밤하늘 및 천체",
+      "location": "대구/경북",
+      "duration": "2025.05.20 ~ 2025.06.15",
+      "place": "국립대구과학관",
+      "areaCode": 4,
+      "imageSrc": "img/dgTwo.jpg",
+      "badge": [
+        "sale",
+        "only",
+        "hot"
+      ],
+      "slug": "sX9d17"
+    },
+    {
+      "title": "묘하게, 너",
+      "location": "대구/경북",
+      "duration": "2025.05.28 ~ 2025.07.01",
+      "place": "라이크디즈위드김광석거리점",
+      "areaCode": 4,
+      "imageSrc": "img/dgThree.jpg",
+      "badge": [
+        "hot",
+        "sale",
+        "only"
+      ],
+      "slug": "sX9d18"
+    },
+    {
+      "title": "여전히 아름다운지",
+      "location": "대구/경북",
+      "duration": "2025.06.05 ~ 2025.07.20",
+      "place": "모호주택",
+      "areaCode": 4,
+      "imageSrc": "img/dgFour.jpg",
+      "badge": [
+        "only",
+        "hot",
+        "sale"
+      ],
+      "slug": "sX9d19"
+    },
+    {
+      "title": "이름 없는 하루의 조각들",
+      "location": "대구/경북",
+      "duration": "2025.05.15 ~ 2025.06.18",
+      "place": "라이크디즈위드 교동점",
+      "areaCode": 4,
+      "imageSrc": "img/dgFive.jpg",
+      "badge": [
+        "sale",
+        "only",
+        "hot"
+      ],
+      "slug": "sX9d20"
+    },
+    {
+      "title": "멀고 가까운 섬들 Islands Near and Far",
+      "location": "부산/경남",
+      "duration": "2025.06.05 ~ 2025.06.28",
+      "place": "맥화랑",
+      "areaCode": 5,
+      "imageSrc": "img/bsOne.jpg",
+      "badge": [],
+      "slug": "sX9d21"
+    },
+    {
+      "title": "사람은 무엇으로 사는가",
+      "location": "부산/경남",
+      "duration": "2025.06.05 ~ 2025.06.26",
+      "place": "허먼갤러리",
+      "areaCode": 5,
+      "imageSrc": "img/bsTwo.jpg",
+      "badge": [
+        "only",
+        "sale",
+        "hot"
+      ],
+      "slug": "sX9d22"
+    },
+    {
+      "title": "Soft dash",
+      "location": "부산/경남",
+      "duration": "2025.05.24 ~ 2025.06.15",
+      "place": "오픈스페이스 배",
+      "areaCode": 5,
+      "imageSrc": "img/bsThree.jpg",
+      "badge": [],
+      "slug": "sX9d23"
+    },
+    {
+      "title": "Violet Travel",
+      "location": "부산/경남",
+      "duration": "2025.06.02 ~ 2025.06.25",
+      "place": "청년창조발전소고고씽job",
+      "areaCode": 5,
+      "imageSrc": "img/bsFour.jpg",
+      "badge": [
+        "sale",
+        "only",
+        "hot"
+      ],
+      "slug": "sX9d24"
+    },
+    {
+      "title": "그때의 너도, 지금의 너도, 이곳에 올 수 있어",
+      "location": "부산/경남",
+      "duration": "2025.05.17 ~ 2025.06.14",
+      "place": "아트소향",
+      "areaCode": 5,
+      "imageSrc": "img/bsFive.jpg",
+      "badge": [],
+      "slug": "sX9d25"
+    },
+    {
+      "title": "일상, 그리다",
+      "location": "광주/전라",
+      "duration": "2025.06.10 ~ 2025.06.19",
+      "place": "빛고을 시민문화관",
+      "areaCode": 6,
+      "imageSrc": "img/gjOne.jpg",
+      "badge": [
+        "only",
+        "sale"
+      ],
+      "slug": "sX9d26"
+    },
+    {
+      "title": "마음, 예술가의 혼을 담은 한국화",
+      "location": "광주/전라",
+      "duration": "2025.05.13 ~ 2025.09.07",
+      "place": "광주시립미술관",
+      "areaCode": 6,
+      "imageSrc": "img/gjTwo.jpg",
+      "badge": [
+        "only",
+        "hot",
+        "sale"
+      ],
+      "slug": "sX9d27"
+    },
+    {
+      "title": "소녀-애상",
+      "location": "광주/전라",
+      "duration": "2025.06.03 ~ 2025.07.28",
+      "place": "별밤미술관 in 신창",
+      "areaCode": 6,
+      "imageSrc": "img/gjThree.jpg",
+      "badge": [
+        "sale",
+        "only",
+        "hot"
+      ],
+      "slug": "sX9d28"
+    },
+    {
+      "title": "이이남의 산수극장",
+      "location": "광주/전라",
+      "duration": "2025.04.04 ~ 2025.07.06",
+      "place": "국립아시아문화전당",
+      "areaCode": 6,
+      "imageSrc": "img/gjFour.jpg",
+      "badge": [
+        "only"
+      ],
+      "slug": "sX9d29"
+    },
+    {
+      "title": "박조열과 '오장군의 발톱'",
+      "location": "광주/전라",
+      "duration": "2024.12.11 ~ 2025.06.29",
+      "place": "국립아시아문화전당",
+      "areaCode": 6,
+      "imageSrc": "img/gjFive.jpg",
+      "badge": [
+        "sale",
+        "only",
+        "hot"
+      ],
+      "slug": "sX9d30"
+    },
+    {
+      "title": "타타라타트(Tattarrattat)",
+      "location": "제주",
+      "duration": "2025.06.06 ~ 2025.06.22",
+      "place": "새탕라움",
+      "areaCode": 7,
+      "imageSrc": "img/jjOne.jpg",
+      "badge": [
+        "only"
+      ],
+      "slug": "sX9d31"
+    },
+    {
+      "title": "김승민 개인전",
+      "location": "제주",
+      "duration": "2025.06.09 ~ 2025.06.21",
+      "place": "돌담갤러리",
+      "areaCode": 7,
+      "imageSrc": "img/jjTwo.jpg",
+      "badge": [
+        "hot",
+        "sale",
+        "only"
+      ],
+      "slug": "sX9d32"
+    },
+    {
+      "title": "머무는 산책",
+      "location": "제주",
+      "duration": "2025.06.08 ~ 2025.08.30",
+      "place": "폴개우영",
+      "areaCode": 7,
+      "imageSrc": "img/jjThree.jpg",
+      "badge": [],
+      "slug": "sX9d33"
+    },
+    {
+      "title": "에릭 오 : O",
+      "location": "제주",
+      "duration": "2024.04.25 ~ 2025.06.30",
+      "place": "하우스오브레퓨즈",
+      "areaCode": 7,
+      "imageSrc": "img/jjFour.jpg",
+      "badge": [
+        "hot",
+        "sale",
+        "only"
+      ],
+      "slug": "sX9d34"
+    },
+    {
+      "title": "불편한 편의점 뮤직드라마",
+      "location": "제주",
+      "duration": "2025.05.03 ~ 2025.08.31",
+      "place": "제주 한라아트홀 대극장",
+      "areaCode": 7,
+      "imageSrc": "img/jjFive.jpg",
+      "badge": [],
+      "slug": "sX9d35"
+    }
+  ]
+}
