@@ -6,7 +6,7 @@
       "duration": "2025.04.09 ~ 2025.07.06",
       "place": "스페이스K 서울",
       "areaCode": 1,
-      "imageSrc": "/img/seoulOne.jpg",
+      "imageSrc": "img/seoulOne.jpg",
       "badge": [
         "hot"
       ],
@@ -18,7 +18,7 @@
       "duration": "2025.02.26 ~ 2025.10.12",
       "place": "석파정 서울미술관",
       "areaCode": 1,
-      "imageSrc": "/img/seoulTwo.jpg",
+      "imageSrc": "img/seoulTwo.jpg",
       "badge": [],
       "slug": "sX9d02"
     },
@@ -28,7 +28,7 @@
       "duration": "2025.05.31 ~ 2025.06.30",
       "place": "예그린씨어터",
       "areaCode": 1,
-      "imageSrc": "/img/seoulThree.jpg",
+      "imageSrc": "img/seoulThree.jpg",
       "badge": [],
       "slug": "sX9d03"
     },
@@ -38,7 +38,7 @@
       "duration": "2025.06.08 ~ 2025.07.03",
       "place": "갤러리로윤",
       "areaCode": 1,
-      "imageSrc": "/img/seoulFour.jpg",
+      "imageSrc": "img/seoulFour.jpg",
       "badge": [
         "sale",
         "only",
@@ -52,7 +52,7 @@
       "duration": "2025.05.25 ~ 2025.06.14",
       "place": "서울시 영등포구 양평동",
       "areaCode": 1,
-      "imageSrc": "/img/seoulFive.jpg",
+      "imageSrc": "img/seoulFive.jpg",
       "badge": [
         "sale",
         "hot"
@@ -65,7 +65,7 @@
       "duration": "2025.06.06 ~ 2025.06.29",
       "place": "소전미술관",
       "areaCode": 2,
-      "imageSrc": "/img/icOne.jpg",
+      "imageSrc": "img/icOne.jpg",
       "badge": [
         "only"
       ],
@@ -77,7 +77,7 @@
       "duration": "2025.06.07 ~ 2025.06.29",
       "place": "아트 포 랩",
       "areaCode": 2,
-      "imageSrc": "/img/icTwo.jpg",
+      "imageSrc": "img/icTwo.jpg",
       "badge": [],
       "slug": "sX9d07"
     },
@@ -87,7 +87,7 @@
       "duration": "2025.05.31 ~ 2025.06.18",
       "place": "아트 포 랩",
       "areaCode": 2,
-      "imageSrc": "/img/icThree.jpg",
+      "imageSrc": "img/icThree.jpg",
       "badge": [
         "sale",
         "hot",
@@ -101,7 +101,7 @@
       "duration": "2025.06.07 ~ 2025.06.14",
       "place": "양평아프리카문화예술박물관",
       "areaCode": 2,
-      "imageSrc": "/img/icFour.jpg",
+      "imageSrc": "img/icFour.jpg",
       "badge": [
         "hot"
       ],
@@ -113,7 +113,7 @@
       "duration": "2025.05.29 ~ 2025.06.16",
       "place": "갤러리티",
       "areaCode": 2,
-      "imageSrc": "/img/icFive.jpg",
+      "imageSrc": "img/icFive.jpg",
       "badge": [
         "sale",
         "only"
@@ -126,7 +126,7 @@
       "duration": "2025.04.05 ~ 2025.07.27",
       "place": "평화랑",
       "areaCode": 3,
-      "imageSrc": "/img/gwOne.jpg",
+      "imageSrc": "img/gwOne.jpg",
       "badge": [
         "only",
         "sale"
@@ -139,7 +139,7 @@
       "duration": "2025.06.11 ~ 2025.06.29",
       "place": "소집",
       "areaCode": 3,
-      "imageSrc": "/img/gwTwo.jpg",
+      "imageSrc": "img/gwTwo.jpg",
       "badge": [
         "hot",
         "only",
@@ -153,7 +153,7 @@
       "duration": "2025.03.29 ~ 2025.06.15",
       "place": "KT&G 상상마당 춘천 아트센터",
       "areaCode": 3,
-      "imageSrc": "/img/gwThree.jpg",
+      "imageSrc": "img/gwThree.jpg",
       "badge": [
         "sale",
         "hot"
@@ -166,7 +166,7 @@
       "duration": "2025.02.28 ~ 2025.10.31",
       "place": "올데이스테이",
       "areaCode": 3,
-      "imageSrc": "/img/gwFour.jpg",
+      "imageSrc": "img/gwFour.jpg",
       "badge": [
         "only",
         "sale"
@@ -179,7 +179,7 @@
       "duration": "2025.04.22 ~ 2026.04.12",
       "place": "박수근미술관 어린이관",
       "areaCode": 3,
-      "imageSrc": "/img/gwFive.jpg",
+      "imageSrc": "img/gwFive.jpg",
       "badge": [],
       "slug": "sX9d15"
     },
@@ -189,7 +189,7 @@
       "duration": "2025.05.23 ~ 2025.06.13",
       "place": "갤러리여울",
       "areaCode": 4,
-      "imageSrc": "/img/dgOne.jpg",
+      "imageSrc": "img/dgOne.jpg",
       "badge": [
         "hot",
         "sale"
@@ -202,7 +202,7 @@
       "duration": "2025.05.20 ~ 2025.06.15",
       "place": "국립대구과학관",
       "areaCode": 4,
-      "imageSrc": "/img/dgTwo.jpg",
+      "imageSrc": "img/dgTwo.jpg",
       "badge": [
         "sale",
         "only",
@@ -216,7 +216,7 @@
       "duration": "2025.05.28 ~ 2025.07.01",
       "place": "라이크디즈위드김광석거리점",
       "areaCode": 4,
-      "imageSrc": "/img/dgThree.jpg",
+      "imageSrc": "img/dgThree.jpg",
       "badge": [
         "only",
         "hot"
@@ -229,7 +229,7 @@
       "duration": "2025.06.05 ~ 2025.07.20",
       "place": "모호주택",
       "areaCode": 4,
-      "imageSrc": "/img/dgFour.jpg",
+      "imageSrc": "img/dgFour.jpg",
       "badge": [
         "hot",
         "only"
@@ -242,7 +242,7 @@
       "duration": "2025.05.15 ~ 2025.06.18",
       "place": "라이크디즈위드 교동점",
       "areaCode": 4,
-      "imageSrc": "/img/dgFive.jpg",
+      "imageSrc": "img/dgFive.jpg",
       "badge": [
         "only",
         "sale"
@@ -255,7 +255,7 @@
       "duration": "2025.06.05 ~ 2025.06.28",
       "place": "맥화랑",
       "areaCode": 5,
-      "imageSrc": "/img/bsOne.jpg",
+      "imageSrc": "img/bsOne.jpg",
       "badge": [
         "sale"
       ],
@@ -267,7 +267,7 @@
       "duration": "2025.06.05 ~ 2025.06.26",
       "place": "허먼갤러리",
       "areaCode": 5,
-      "imageSrc": "/img/bsTwo.jpg",
+      "imageSrc": "img/bsTwo.jpg",
       "badge": [
         "only",
         "hot"
@@ -280,7 +280,7 @@
       "duration": "2025.05.24 ~ 2025.06.15",
       "place": "오픈스페이스 배",
       "areaCode": 5,
-      "imageSrc": "/img/bsThree.jpg",
+      "imageSrc": "img/bsThree.jpg",
       "badge": [
         "hot",
         "only",
@@ -294,7 +294,7 @@
       "duration": "2025.06.02 ~ 2025.06.25",
       "place": "청년창조발전소고고씽job",
       "areaCode": 5,
-      "imageSrc": "/img/bsFour.jpg",
+      "imageSrc": "img/bsFour.jpg",
       "badge": [
         "only"
       ],
@@ -306,7 +306,7 @@
       "duration": "2025.05.17 ~ 2025.06.14",
       "place": "아트소향",
       "areaCode": 5,
-      "imageSrc": "/img/bsFive.jpg",
+      "imageSrc": "img/bsFive.jpg",
       "badge": [
         "hot",
         "only",
@@ -320,7 +320,7 @@
       "duration": "2025.06.10 ~ 2025.06.19",
       "place": "빛고을 시민문화관",
       "areaCode": 6,
-      "imageSrc": "/img/gjOne.jpg",
+      "imageSrc": "img/gjOne.jpg",
       "badge": [
         "sale"
       ],
@@ -332,7 +332,7 @@
       "duration": "2025.05.13 ~ 2025.09.07",
       "place": "광주시립미술관",
       "areaCode": 6,
-      "imageSrc": "/img/gjTwo.jpg",
+      "imageSrc": "img/gjTwo.jpg",
       "badge": [
         "hot",
         "only",
@@ -346,7 +346,7 @@
       "duration": "2025.06.03 ~ 2025.07.28",
       "place": "별밤미술관 in 신창",
       "areaCode": 6,
-      "imageSrc": "/img/gjThree.jpg",
+      "imageSrc": "img/gjThree.jpg",
       "badge": [
         "hot"
       ],
@@ -358,7 +358,7 @@
       "duration": "2025.04.04 ~ 2025.07.06",
       "place": "국립아시아문화전당",
       "areaCode": 6,
-      "imageSrc": "/img/gjFour.jpg",
+      "imageSrc": "img/gjFour.jpg",
       "badge": [
         "sale",
         "hot"
@@ -371,7 +371,7 @@
       "duration": "2024.12.11 ~ 2025.06.29",
       "place": "국립아시아문화전당",
       "areaCode": 6,
-      "imageSrc": "/img/gjFive.jpg",
+      "imageSrc": "img/gjFive.jpg",
       "badge": [],
       "slug": "sX9d30"
     },
@@ -381,7 +381,7 @@
       "duration": "2025.06.06 ~ 2025.06.22",
       "place": "새탕라움",
       "areaCode": 7,
-      "imageSrc": "/img/jjOne.jpg",
+      "imageSrc": "img/jjOne.jpg",
       "badge": [],
       "slug": "sX9d31"
     },
@@ -391,7 +391,7 @@
       "duration": "2025.06.09 ~ 2025.06.21",
       "place": "돌담갤러리",
       "areaCode": 7,
-      "imageSrc": "/img/jjTwo.jpg",
+      "imageSrc": "img/jjTwo.jpg",
       "badge": [
         "sale",
         "only",
@@ -405,7 +405,7 @@
       "duration": "2025.06.08 ~ 2025.08.30",
       "place": "폴개우영",
       "areaCode": 7,
-      "imageSrc": "/img/jjThree.jpg",
+      "imageSrc": "img/jjThree.jpg",
       "badge": [
         "only"
       ],
@@ -417,7 +417,7 @@
       "duration": "2024.04.25 ~ 2025.06.30",
       "place": "하우스오브레퓨즈",
       "areaCode": 7,
-      "imageSrc": "/img/jjFour.jpg",
+      "imageSrc": "img/jjFour.jpg",
       "badge": [
         "sale",
         "hot",
@@ -431,7 +431,7 @@
       "duration": "2025.05.03 ~ 2025.08.31",
       "place": "제주 한라아트홀 대극장",
       "areaCode": 7,
-      "imageSrc": "/img/jjFive.jpg",
+      "imageSrc": "img/jjFive.jpg",
       "badge": [
         "sale",
         "hot"
@@ -444,7 +444,7 @@
       "duration": "2025.04.09 ~ 2025.07.06",
       "place": "스페이스K 서울",
       "areaCode": 1,
-      "imageSrc": "/img/seoulOne.jpg",
+      "imageSrc": "img/seoulOne.jpg",
       "badge": [],
       "slug": "sX9d01"
     },
@@ -454,7 +454,7 @@
       "duration": "2025.02.26 ~ 2025.10.12",
       "place": "석파정 서울미술관",
       "areaCode": 1,
-      "imageSrc": "/img/seoulTwo.jpg",
+      "imageSrc": "img/seoulTwo.jpg",
       "badge": [
         "sale",
         "only",
@@ -468,7 +468,7 @@
       "duration": "2025.05.31 ~ 2025.06.30",
       "place": "예그린씨어터",
       "areaCode": 1,
-      "imageSrc": "/img/seoulThree.jpg",
+      "imageSrc": "img/seoulThree.jpg",
       "badge": [],
       "slug": "sX9d03"
     },
@@ -478,7 +478,7 @@
       "duration": "2025.06.08 ~ 2025.07.03",
       "place": "갤러리로윤",
       "areaCode": 1,
-      "imageSrc": "/img/seoulFour.jpg",
+      "imageSrc": "img/seoulFour.jpg",
       "badge": [
         "only",
         "sale",
@@ -492,7 +492,7 @@
       "duration": "2025.05.25 ~ 2025.06.14",
       "place": "서울시 영등포구 양평동",
       "areaCode": 1,
-      "imageSrc": "/img/seoulFive.jpg",
+      "imageSrc": "img/seoulFive.jpg",
       "badge": [],
       "slug": "sX9d05"
     },
@@ -502,7 +502,7 @@
       "duration": "2025.06.06 ~ 2025.06.29",
       "place": "소전미술관",
       "areaCode": 2,
-      "imageSrc": "/img/icOne.jpg",
+      "imageSrc": "img/icOne.jpg",
       "badge": [
         "hot"
       ],
@@ -514,7 +514,7 @@
       "duration": "2025.06.07 ~ 2025.06.29",
       "place": "아트 포 랩",
       "areaCode": 2,
-      "imageSrc": "/img/icTwo.jpg",
+      "imageSrc": "img/icTwo.jpg",
       "badge": [
         "hot"
       ],
@@ -526,7 +526,7 @@
       "duration": "2025.05.31 ~ 2025.06.18",
       "place": "아트 포 랩",
       "areaCode": 2,
-      "imageSrc": "/img/icThree.jpg",
+      "imageSrc": "img/icThree.jpg",
       "badge": [
         "only",
         "hot"
@@ -539,7 +539,7 @@
       "duration": "2025.06.07 ~ 2025.06.14",
       "place": "양평아프리카문화예술박물관",
       "areaCode": 2,
-      "imageSrc": "/img/icFour.jpg",
+      "imageSrc": "img/icFour.jpg",
       "badge": [],
       "slug": "sX9d09"
     },
@@ -549,7 +549,7 @@
       "duration": "2025.05.29 ~ 2025.06.16",
       "place": "갤러리티",
       "areaCode": 2,
-      "imageSrc": "/img/icFive.jpg",
+      "imageSrc": "img/icFive.jpg",
       "badge": [],
       "slug": "sX9d10"
     },
@@ -559,7 +559,7 @@
       "duration": "2025.04.05 ~ 2025.07.27",
       "place": "평화랑",
       "areaCode": 3,
-      "imageSrc": "/img/gwOne.jpg",
+      "imageSrc": "img/gwOne.jpg",
       "badge": [],
       "slug": "sX9d11"
     },
@@ -569,7 +569,7 @@
       "duration": "2025.06.11 ~ 2025.06.29",
       "place": "소집",
       "areaCode": 3,
-      "imageSrc": "/img/gwTwo.jpg",
+      "imageSrc": "img/gwTwo.jpg",
       "badge": [],
       "slug": "sX9d12"
     },
@@ -579,7 +579,7 @@
       "duration": "2025.03.29 ~ 2025.06.15",
       "place": "KT&G 상상마당 춘천 아트센터",
       "areaCode": 3,
-      "imageSrc": "/img/gwThree.jpg",
+      "imageSrc": "img/gwThree.jpg",
       "badge": [
         "only"
       ],
@@ -591,7 +591,7 @@
       "duration": "2025.02.28 ~ 2025.10.31",
       "place": "올데이스테이",
       "areaCode": 3,
-      "imageSrc": "/img/gwFour.jpg",
+      "imageSrc": "img/gwFour.jpg",
       "badge": [
         "sale"
       ],
@@ -603,7 +603,7 @@
       "duration": "2025.04.22 ~ 2026.04.12",
       "place": "박수근미술관 어린이관",
       "areaCode": 3,
-      "imageSrc": "/img/gwFive.jpg",
+      "imageSrc": "img/gwFive.jpg",
       "badge": [
         "hot",
         "sale"
@@ -616,7 +616,7 @@
       "duration": "2025.05.23 ~ 2025.06.13",
       "place": "갤러리여울",
       "areaCode": 4,
-      "imageSrc": "/img/dgOne.jpg",
+      "imageSrc": "img/dgOne.jpg",
       "badge": [
         "only",
         "sale",
@@ -630,7 +630,7 @@
       "duration": "2025.05.20 ~ 2025.06.15",
       "place": "국립대구과학관",
       "areaCode": 4,
-      "imageSrc": "/img/dgTwo.jpg",
+      "imageSrc": "img/dgTwo.jpg",
       "badge": [
         "sale",
         "only",
@@ -644,7 +644,7 @@
       "duration": "2025.05.28 ~ 2025.07.01",
       "place": "라이크디즈위드김광석거리점",
       "areaCode": 4,
-      "imageSrc": "/img/dgThree.jpg",
+      "imageSrc": "img/dgThree.jpg",
       "badge": [
         "hot",
         "sale",
@@ -658,7 +658,7 @@
       "duration": "2025.06.05 ~ 2025.07.20",
       "place": "모호주택",
       "areaCode": 4,
-      "imageSrc": "/img/dgFour.jpg",
+      "imageSrc": "img/dgFour.jpg",
       "badge": [
         "only",
         "hot",
@@ -672,7 +672,7 @@
       "duration": "2025.05.15 ~ 2025.06.18",
       "place": "라이크디즈위드 교동점",
       "areaCode": 4,
-      "imageSrc": "/img/dgFive.jpg",
+      "imageSrc": "img/dgFive.jpg",
       "badge": [
         "sale",
         "only",
@@ -686,7 +686,7 @@
       "duration": "2025.06.05 ~ 2025.06.28",
       "place": "맥화랑",
       "areaCode": 5,
-      "imageSrc": "/img/bsOne.jpg",
+      "imageSrc": "img/bsOne.jpg",
       "badge": [],
       "slug": "sX9d21"
     },
@@ -696,7 +696,7 @@
       "duration": "2025.06.05 ~ 2025.06.26",
       "place": "허먼갤러리",
       "areaCode": 5,
-      "imageSrc": "/img/bsTwo.jpg",
+      "imageSrc": "img/bsTwo.jpg",
       "badge": [
         "only",
         "sale",
@@ -710,7 +710,7 @@
       "duration": "2025.05.24 ~ 2025.06.15",
       "place": "오픈스페이스 배",
       "areaCode": 5,
-      "imageSrc": "/img/bsThree.jpg",
+      "imageSrc": "img/bsThree.jpg",
       "badge": [],
       "slug": "sX9d23"
     },
@@ -720,7 +720,7 @@
       "duration": "2025.06.02 ~ 2025.06.25",
       "place": "청년창조발전소고고씽job",
       "areaCode": 5,
-      "imageSrc": "/img/bsFour.jpg",
+      "imageSrc": "img/bsFour.jpg",
       "badge": [
         "sale",
         "only",
@@ -734,7 +734,7 @@
       "duration": "2025.05.17 ~ 2025.06.14",
       "place": "아트소향",
       "areaCode": 5,
-      "imageSrc": "/img/bsFive.jpg",
+      "imageSrc": "img/bsFive.jpg",
       "badge": [],
       "slug": "sX9d25"
     },
@@ -744,7 +744,7 @@
       "duration": "2025.06.10 ~ 2025.06.19",
       "place": "빛고을 시민문화관",
       "areaCode": 6,
-      "imageSrc": "/img/gjOne.jpg",
+      "imageSrc": "img/gjOne.jpg",
       "badge": [
         "only",
         "sale"
@@ -757,7 +757,7 @@
       "duration": "2025.05.13 ~ 2025.09.07",
       "place": "광주시립미술관",
       "areaCode": 6,
-      "imageSrc": "/img/gjTwo.jpg",
+      "imageSrc": "img/gjTwo.jpg",
       "badge": [
         "only",
         "hot",
@@ -771,7 +771,7 @@
       "duration": "2025.06.03 ~ 2025.07.28",
       "place": "별밤미술관 in 신창",
       "areaCode": 6,
-      "imageSrc": "/img/gjThree.jpg",
+      "imageSrc": "img/gjThree.jpg",
       "badge": [
         "sale",
         "only",
@@ -785,7 +785,7 @@
       "duration": "2025.04.04 ~ 2025.07.06",
       "place": "국립아시아문화전당",
       "areaCode": 6,
-      "imageSrc": "/img/gjFour.jpg",
+      "imageSrc": "img/gjFour.jpg",
       "badge": [
         "only"
       ],
@@ -797,7 +797,7 @@
       "duration": "2024.12.11 ~ 2025.06.29",
       "place": "국립아시아문화전당",
       "areaCode": 6,
-      "imageSrc": "/img/gjFive.jpg",
+      "imageSrc": "img/gjFive.jpg",
       "badge": [
         "sale",
         "only",
@@ -811,7 +811,7 @@
       "duration": "2025.06.06 ~ 2025.06.22",
       "place": "새탕라움",
       "areaCode": 7,
-      "imageSrc": "/img/jjOne.jpg",
+      "imageSrc": "img/jjOne.jpg",
       "badge": [
         "only"
       ],
@@ -823,7 +823,7 @@
       "duration": "2025.06.09 ~ 2025.06.21",
       "place": "돌담갤러리",
       "areaCode": 7,
-      "imageSrc": "/img/jjTwo.jpg",
+      "imageSrc": "img/jjTwo.jpg",
       "badge": [
         "hot",
         "sale",
@@ -837,7 +837,7 @@
       "duration": "2025.06.08 ~ 2025.08.30",
       "place": "폴개우영",
       "areaCode": 7,
-      "imageSrc": "/img/jjThree.jpg",
+      "imageSrc": "img/jjThree.jpg",
       "badge": [],
       "slug": "sX9d33"
     },
@@ -847,7 +847,7 @@
       "duration": "2024.04.25 ~ 2025.06.30",
       "place": "하우스오브레퓨즈",
       "areaCode": 7,
-      "imageSrc": "/img/jjFour.jpg",
+      "imageSrc": "img/jjFour.jpg",
       "badge": [
         "hot",
         "sale",
@@ -861,7 +861,7 @@
       "duration": "2025.05.03 ~ 2025.08.31",
       "place": "제주 한라아트홀 대극장",
       "areaCode": 7,
-      "imageSrc": "/img/jjFive.jpg",
+      "imageSrc": "img/jjFive.jpg",
       "badge": [],
       "slug": "sX9d35"
     }
