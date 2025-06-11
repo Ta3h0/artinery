@@ -19,15 +19,15 @@ const goError = () => {
 <template>
   <div class="socialLogin">
     <button v-if="socialLogins.includes('kakao')" class="py-4 w-100 kakao" @click="goError()">
-      <img src="/img/kakao.svg" alt="No Icon" style="height: 20px; width: auto;">
+      <img src="img/kakao.svg" alt="No Icon" style="height: 20px; width: auto;">
       <p class="ml-2">카카오 로그인</p>
     </button>
     <button v-if="socialLogins.includes('naver')" class="py-4 w-100 naver" @click="goError()">
-      <img src="/img/naver.svg" alt="No Icon" style="height: 20px; width: auto;">
+      <img src="img/naver.svg" alt="No Icon" style="height: 20px; width: auto;">
       <p class="ml-2">네이버 로그인</p>
     </button>
     <button v-if="socialLogins.includes('google')" class="py-4 w-100 google" @click="goError()">
-      <img src="/img/google.svg" alt="No Icon" style="height: 20px; width: auto;">
+      <img src="img/google.svg" alt="No Icon" style="height: 20px; width: auto;">
       <p class="ml-2">구글 로그인</p>
     </button>
   </div>

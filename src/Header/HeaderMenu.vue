@@ -50,11 +50,11 @@ const goError = () => {
 
     <div class="userTab d-flex pb-4">
       <a href="#" class="d-flex align-center mx-3" @mouseenter="onCloseMenu" @click="router.push({ path: '/login' })">
-        <img src="/img/user.svg" alt="No Icon" style="width: 20px;" />
+        <img src="img/user.svg" alt="No Icon" style="width: 20px;" />
         <h1 class="ml-2" style="font-size: 14px;">로그인</h1>
       </a>
       <a href="#" class="d-flex align-center mx-3" @mouseenter="onCloseMenu" @click="goError()">
-        <img src="/img/Ticket.svg" alt="No Icon" style="width: 20px;" />
+        <img src="img/Ticket.svg" alt="No Icon" style="width: 20px;" />
         <h1 class="ml-2" style="font-size: 14px;">내 예약</h1>
       </a>
     </div>

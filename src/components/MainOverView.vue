@@ -13,15 +13,15 @@ const goError = () => {
 }
 
 const magazineList = [
-  { title: "도시의 일상에 깃든 축제: 소피 폰 헬러만 展이 전하는 색채의 울림", imageSrc: "/img/seoulOneBanner.jpg", slug: "" },
-  { title: "라이브의 진동, ‘머피’가 건네는 록(樂)의 감각", imageSrc: "/img/seoulThreeBanner.jpg", slug: "" },
-  { title: "경계의 유희, ‘Fence-go-round’로 엮어낸 일상의 회전목마", imageSrc: "/img/seoulFiveBanner.jpg", slug: "" },
-  { title: "집의 모든 순간을 담다: ‘All Day House’가 펼치는 공간의 기록", imageSrc: "/img/gwFourBanner.jpg", slug: "" },
-  { title: "새벽 빛 속으로 초대합니다: ‘아침정원’이 전하는 첫 햇살의 이야기", imageSrc: "/img/icOneBanner.jpg", slug: "" },
+  { title: "도시의 일상에 깃든 축제: 소피 폰 헬러만 展이 전하는 색채의 울림", imageSrc: "img/seoulOneBanner.jpg", slug: "" },
+  { title: "라이브의 진동, ‘머피’가 건네는 록(樂)의 감각", imageSrc: "img/seoulThreeBanner.jpg", slug: "" },
+  { title: "경계의 유희, ‘Fence-go-round’로 엮어낸 일상의 회전목마", imageSrc: "img/seoulFiveBanner.jpg", slug: "" },
+  { title: "집의 모든 순간을 담다: ‘All Day House’가 펼치는 공간의 기록", imageSrc: "img/gwFourBanner.jpg", slug: "" },
+  { title: "새벽 빛 속으로 초대합니다: ‘아침정원’이 전하는 첫 햇살의 이야기", imageSrc: "img/icOneBanner.jpg", slug: "" },
 ]
 
 
-const thisImage = ref("/img/seoulOneBanner.jpg");
+const thisImage = ref("img/seoulOneBanner.jpg");
 
 const currentIdx = ref(0);
 
@@ -50,7 +50,7 @@ const changeImg = (i) => {
             on: currentIdx === i,
             'prev-on': currentIdx - 1 === i
           }" @click="goError()">
-          {{ item.title }} <img src="/img/rightArrow.svg" alt="바로가기" style="width: auto !important;" />
+          {{ item.title }} <img src="img/rightArrow.svg" alt="바로가기" style="width: auto !important;" />
         </div>
       </div>
 

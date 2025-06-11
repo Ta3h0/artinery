@@ -25,7 +25,7 @@ import PopUp from './components/PopUp.vue';
       <DeadLine highlight="마감임박" title="작품" dataSet="deadLine" />
     </section>
     <section>
-      <MiddleBanner imageSrc="/img/testBanner.jpg" routerPath="/event" />
+      <MiddleBanner imageSrc="img/testBanner.jpg" routerPath="/event" />
     </section>
     <section>
       <SlideBar title="이번 주 뭐 보지?" dataSet="tab" />
@@ -34,13 +34,13 @@ import PopUp from './components/PopUp.vue';
       <MainOverView title='아티 매거진' />
     </section>
     <section>
-      <MiddleBanner imageSrc="/img/testBanner.jpg" routerPath="/event" />
+      <MiddleBanner imageSrc="img/testBanner.jpg" routerPath="/event" />
     </section>
     <section>
       <MainReview title='관람 후기' />
     </section>
 
-    <PopUp class="popup" imageSrc="/img/popUp.jpg" />
+    <PopUp class="popup" imageSrc="img/popUp.jpg" />
   </div>
 </template>
 

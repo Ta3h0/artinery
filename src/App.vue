@@ -57,13 +57,13 @@ function goBottom() {
     <div class="floatNav py-1">
       <ul class="pa-0 my-0 mx-auto">
         <li class="d-flex justify-center pa-2 topBtnHover"
-          style="width: 40px; height: 40px; background-color: #fee500; border-radius: 50%;"><img src="/img/kakao.svg"
+          style="width: 40px; height: 40px; background-color: #fee500; border-radius: 50%;"><img src="img/kakao.svg"
             alt="" class="w-100"></li>
         <li @click="goTop" class="d-flex justify-center pa-2 my-2 topBtnHover"
-          style="width: 40px; height: 40px; background-color: #ffffff50; border-radius: 50%;"><img src="/img/up2.svg"
+          style="width: 40px; height: 40px; background-color: #ffffff50; border-radius: 50%;"><img src="img/up2.svg"
             alt="" class="w-100"></li>
         <li @click="goBottom" class="d-flex justify-center pa-2 topBtnHover"
-          style="width: 40px; height: 40px; background-color: #ffffff50; border-radius: 50%;"><img src="/img/down.svg"
+          style="width: 40px; height: 40px; background-color: #ffffff50; border-radius: 50%;"><img src="img/down.svg"
             alt="" class="w-100"></li>
       </ul>
     </div>

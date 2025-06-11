@@ -10,12 +10,12 @@
 import { useRouter } from 'vue-router';
 
 const bannerItem = [
-  { imageSrc: "/img/miniBanner1.png" },
-  { imageSrc: "/img/miniBanner2.png" },
-  { imageSrc: "/img/miniBanner3.png" },
-  { imageSrc: "/img/miniBanner4.png" },
-  { imageSrc: "/img/miniBanner5.png" },
-  { imageSrc: "/img/miniBanner6.png" },
+  { imageSrc: "img/miniBanner1.png" },
+  { imageSrc: "img/miniBanner2.png" },
+  { imageSrc: "img/miniBanner3.png" },
+  { imageSrc: "img/miniBanner4.png" },
+  { imageSrc: "img/miniBanner5.png" },
+  { imageSrc: "img/miniBanner6.png" },
 ]
 
 const router = useRouter();
