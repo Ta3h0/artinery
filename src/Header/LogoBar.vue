@@ -6,9 +6,9 @@ const router = useRouter();
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 
 const miniItem = [
-  { miniImg: '/img/miniHeaderBanner1.jpg' },
-  { miniImg: '/img/miniHeaderBanner2.jpg' },
-  { miniImg: '/img/miniHeaderBanner3.jpg' },
+  { miniImg: 'img/miniHeaderBanner1.jpg' },
+  { miniImg: 'img/miniHeaderBanner2.jpg' },
+  { miniImg: 'img/miniHeaderBanner3.jpg' },
 ];
 
 const currentIndex = ref(0);
