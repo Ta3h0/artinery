@@ -1,0 +1,173 @@
+@charset "utf-8";
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+@font-face {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+  font-family: pretendard;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+body {
+  line-height: 1.3;
+}
+
+.c-point {
+  cursor: pointer;
+}
+
+input {
+ display: block;
+ background-color: transparent;
+ border: 1px solid #000 !important;
+ padding: 8px 12px 8px 12px;
+ border-radius: 1000px !important;
+}
+
+input::placeholder {
+  font-size: 14px;
+}
+
+.gridOn {
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+section {
+  margin: 80px auto;
+}
+
+.max-line-1 {
+  display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.max-line-4 {
+  display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.hotBadge,
+.onlyBadge,
+.saleBadge {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin: 8px 4px 0 0;
+  display: inline-block;
+}
+
+.hotBadge {
+  color: #FF4141;
+  background-color: #FF414120;
+}
+
+.onlyBadge {
+  color: #249B47;
+  background-color: #0BD77B20;
+}
+.saleBadge {
+  color: #4154FF;
+  background-color: #4154FF20;
+}
+
+.max-line-2 {
+  display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.swiper-button-prev::after,
+.prevBtn::after {
+  font-weight: 900;
+    color: white;
+    background-color: #00000055;
+    padding: 6px 12px 6px 9px !important;
+    border-radius: 50% !important;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .06);
+    border: 1px solid #dadcdf;
+}
+
+.nextBtn::after, 
+.swiper-button-next::after {
+  font-weight: 900;
+  color: white;
+  background-color: #00000055;
+  padding: 6px 9px 6px 12px !important;
+  border-radius: 50% !important;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .06);
+  border: 1px solid #dadcdf;
+}
+
+.largePrevBtn::after
+{
+  padding: 9px 15px 9px 12px !important;
+}
+
+.largeNextBtn::after
+{
+  padding: 9px 12px 9px 15px !important;
+}
+
+.titleText {
+  font-size: 18px;
+}
+
+.color-sub {
+  color: #767676;
+}
+
+.t-size-1 {
+  font-size: 20px;
+}
+
+.t-size-2 {
+  font-size: 18px;
+}
+
+.t-size-3 {
+  font-size: 16px;
+}
+
+.t-size-4 {
+  font-size: 14px;
+}
+
+.t-size-5 {
+  font-size: 12px;
+}
+
+.c-pointer { 
+  cursor: pointer;
+}
